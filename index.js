@@ -40,7 +40,7 @@ async function getBlock() {
 
 // Get the latest usdt balance
 async function getUsdtBalance() {
-  const walletAddress = "0xef0dcc839c1490cebc7209baa11f46cfe83805ab";
+  const walletAddress = "0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97";
   const contractAddress = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
   let balance = await alchemy.core.getTokenBalances(walletAddress, [
     contractAddress,

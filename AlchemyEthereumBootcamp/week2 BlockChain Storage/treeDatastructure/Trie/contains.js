@@ -22,6 +22,7 @@ class Trie {
 
     root.isWord = true;
   }
+
   contains(word, root = this.root) {
     let arr = word.split("");
     if (arr.length === 0) {
